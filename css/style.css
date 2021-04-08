@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+section {
+    padding: 7% 7%;
+}
+/* LOGO CSS */
+.logo {
+    width: 40%;
+}
+.logo img {
+    width: 40%;
+}
+/* END OF LOGO CSS */
+/* HEADER CSS */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    transition: 0.5s;
+    background-color: #000;
+    /* opacity: 0.9; */
+}
+header .navigation {
+    position: relative;
+    display: flex;
+    list-style: none;
+    width: 90vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .navigation li {
+    list-style: none;
+    margin-left: 5px;
+    position: relative;
+}
+header .navigation li a {
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 0.7vw;
+    color: #fff;
+    font-size: 15px;
+}
+.navigation li a:hover {
+    color: #0691ec;
+  }
+header .navigation li a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    top: 25px;
+    background-color: #ed7811;
+    position: absolute;
+    transition: all ease-in-out 0.5s;
+    margin: 0 0 0 10%;
+  }
+  header .navigation li a:hover::before {
+    width: 80%;
+  }
+/* END OF HEADER CSS */
+/* CSS FOR STICKY HEADER */
+header.sticky {
+    background: #fff;
+    padding: 3px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.788);
+    opacity: 1;
+}
+header.sticky .navigation li a  {
+    color: #111;
+    font-size: 15px;
+}
+
+header.sticky .navigation li a:hover  {
+    color: #0691ec;
+}
+/* END OF CSS FOR STICKY HEADER */
+/* IMAGE SLIDER CCS */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.slider .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    animation: animate 15s linear infinite;
+}
+.slider .container .slide {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.slider .container .slide.slide1 {
+    background: url("../images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.slider .container .slide.slide2 {
+    background: url("../images/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.slider .container .slide.slide3 {
+    background: url("../images/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.slider .container .slide.slide4 {
+    background: url("../images/bg4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+/* END OF IMAGE SLIDER CCS */
+/* CSS FOR TEAM SECTION */
+.team {
+    padding: 5% 0 5% 0;
+}
+.team .row img {
+    background-size: cover;
+    padding: 0 5% 0 5%;
+    width: 100%;
+}
+/* END OF CSS FOR TEAM SECTION */
+/* CSS FOR SECTION TITLE AND SUB-TITLE SECTION*/
+.title, .sub-title {
+    display: flex;
+    justify-content: center;
+}
+.title h1 {
+    font-size: 3.1em;
+    color: #ed7811;
+    font-weight: 500;
+}
+#title-blue {
+    color: #0691ec;
+}
+#title-orange {
+    color: #ed7811;
+}
+.sub-title p {
+    font-size: 1.2em;
+}
+/* END OF CSS FOR SECTION TITLE AND SUB-TITLE SECTION*/
+
+/* CSS FOR PRODUCTS SECTION */
+.products .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.products .content .box {
+    width: 350px;
+    margin: 30px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.20);
+}
+
+.products .content .box .imgBx {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.products .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products .content .box .text {
+    padding: 15px 0 5px;
+}
+
+.products .content .box .text h4 {
+    font-weight: 400;
+    color: #111;
+
+}
+/* END OF CSS FOR PRODUCTS SECTION */
+
+/* CSS FOR CRAFTING VIDEOS SECTION */
+.website .row, .marketing .row, .contact .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.website .row .col30 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row .col30 .title h1 {
+    text-align: center;
+}
+.website .row .col70 {
+    position: relative;
+    width: 70%;
+}
+
+.row .col70 .textBx {
+    background: url("../images/banner1.jpg") no-repeat 0px 0px fixed;
+    background-size: cover;
+    padding: 10%;
+    margin: 6%;
+}
+.row .col70 .textBx .overlay {
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    padding: 8%;
+}
+.row .col70 .textBx p {
+    font-size: 1.4em;
+    color: #fff;
+    margin: 5%;
+}
+
+#website h1 {
+    font-size: 5.1em;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+/* END CSS FOR CRAFTING VIDEOS SECTION */
+
+/* CSS FOR DIGITAL MARKETING SECTION */
+.marketing .row .col50 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+#marketing .title {
+    padding-bottom: 4%;
+}
+#col1 {
+    background-color: #0691ec;
+    padding: 4%;
+    color: #fff;
+}
+#col2 {
+    background-color: #ed7811;
+    padding: 4%;
+}
+#col1 .title h2, #col2 .title h2 {
+    font-size: 1.9em;
+    padding: 4%;
+}
+#col1 ul, #col2 ol {
+    padding-left: 10%;
+}
+#col1 ul li, #col2 ol li {
+    font-size: 1.3em; 
+}
+/* END OF CSS FOR DIGITAL MARKETING SECTION */
+
+.row .col50 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.address {
+    padding: 12%;
+}
+.address h3 {
+    font-size: 1.5em;
+}
+.address p {
+    font-size: 1.3em;
+}
+#contact {
+    padding-bottom: 3%;
+}
+.contactForm {
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.5);
+    margin-top: 50px;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm .inputBox input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background: #0691ec;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.contactForm .inputBox input[type="submit"]:hover {
+        color: #111;
+}
+.map {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.map iframe {
+    box-shadow: 0 15px 50px rgba(0,0,0,0.5);
+}
+
+.copyrightText {
+    margin-top: 5%;
+    padding: 18px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.copyrightText p {
+    color: #333;
+}
+.copyrightText a {
+    text-decoration: none;
+}
+
+/* fixed social*/
+#fixed-social {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 111;
+    float: right;
+ }
+ 
+ #fixed-social a {
+    color: #fff;
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+    z-index: 2;
+ }
+ #fixed-social a:hover>span{
+    visibility: visible;
+    right: 41px;
+    opacity: 1;
+ } 
+ #fixed-social a span {
+     line-height: 40px;
+     right: 60px;
+     position: absolute;
+     text-align: center;
+     width: 120px;
+     visibility: hidden;
+     transition-duration: 0.5s;
+     z-index: 1;
+     opacity: 0;
+ }
+  .fixed-facebook{
+      background-color: #00AAE5;
+  }
+  .fixed-facebook span{
+     background-color: #00AAE5;
+  }
+  .fixed-twitter{
+     background-color: #7D3895;
+ 
+  }
+  .fixed-twitter span{
+      background-color: #7D3895;
+  }
+  .fixed-gplus{
+     background-color: #00AF54;
+ 
+  }
+  .fixed-gplus span{
+      background-color: #00AF54;
+  }
+  .fixed-linkedin{
+     background-color: #FFC41E;
+ 
+  }
+  .fixed-linkedin span{
+      background-color: #FFC41E;
+  }
+  .fixed-instagrem{
+     background-color: #ED2B29;
+ 
+  }
+  .fixed-instagrem span{
+      background-color: #ED2B29;
+  }
+ /*end fixed social*/
+ /* #menu-social {
+     display: flex;
+ }
+ #menu-social .fixed-facebook, #menu-social .fixed-twitter, #menu-social .fixed-gplus, 
+ #menu-social .fixed-linkedin, #menu-social .fixed-instagrem {
+    padding: 50%;
+ } */
+
+ @media(max-width: 991px) {
+     section {
+         padding-top: 30%;
+     }
+     .logo img {
+         width: 70%;
+     }
+    header {
+        padding: 10px 20px;
+        transition: 0.5s;
+    }
+    header.sticky {
+        padding: 10px 20px 0 10px;
+        transition: 0.5s;
+    }
+    header .navigation {
+        display: none;
+    }
+    header .navigation.active {
+        width: 100%;
+        height: calc(100% - 60px);
+        position: fixed;
+        top: 60px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        transition: all .5s;
+        z-index: 222;
+    }
+    header .menuToggle.navigation.active ~ ul {
+        left: -100%;
+        transition: all .5s;
+    }
+    header .navigation li {
+        margin-left: 0;
+        top: -10%;
+    }
+    header .navigation li a, header.sticky .navigation li a {
+        color: #111;
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+    header.sticky .navigation li a:hover  {
+        color: #111;
+    }
+    .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url("../images/menu.png");
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .menuToggle.active {
+        background: url("../images/close.png");
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header.sticky .menuToggle {
+        filter: invert(1);
+    }
+     .title h1 {
+         font-size: 2.5em;
+         text-align: center;
+     }
+     .row .col70 .textBx p, #col1 ul li, #col2 ol li, .sub-title p {
+        font-size: 1.2em;
+    }
+    .products .content {
+        margin-top: 0px;
+    }
+    .products .content .box {
+        margin-bottom: 10px;
+    }
+    .products .content .box .imgBx {
+        height: 200px;
+    }
+    .website .row .col30, .website .row .col70 {
+        width: 100%;
+        display: block;
+    }
+    #website h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .row .col70 .textBx {
+        margin: 0;
+    }
+    .website .row .col50, .marketing .row .col50, .contact .row .col50 {
+        width: 100%;
+    }
+    #col1, #col2 {
+        padding-bottom: 9%;
+    }
+    #col1 ul, #col2 ol {
+        padding-left: 18%;
+    }
+    #col1 .title h2, #col2 .title h2 {
+        font-size: 1.5em;
+    }
+    .website .row, .marketing .row, .contact .row {
+        display: block;
+    }
+    .address h3, h3 {
+        font-size: 1.3em;
+    }
+ }
+ @media(max-width: 480px) {
+    .sub-title p, .row .col70 .textBx p, #col1 ul li, #col2 ol li, .address p {
+        font-size: 1em;
+    }
+    #col1 ul, #col2 ol {
+        padding-left: 10%;
+    }
+    .title h1, #website h1 {
+        font-size: 2em;
+    }
+ }
