@@ -274,7 +274,7 @@ header.sticky .navigation li a:hover  {
     margin: 5%;
 }
 
-#website h1 {
+.website h1 {
     font-size: 5.1em;
     flex-wrap: wrap;
     margin: 3%;
@@ -478,12 +478,12 @@ header.sticky .navigation li a:hover  {
  } */
 
  @media(max-width: 991px) {
-     section {
-         padding-top: 30%;
-     }
-     .logo img {
-         width: 70%;
-     }
+    section {
+        padding-top: 30%;
+    }
+    .logo img {
+        width: 70%;
+    }
     header {
         padding: 10px 20px;
         transition: 0.5s;
@@ -602,3 +602,11 @@ header.sticky .navigation li a:hover  {
         font-size: 2em;
     }
  }
+ @media (max-width: 1250px) {
+    .website h1 {
+        font-size: 4.1em;
+    }
+    .row .col70 .textBx {
+        margin: 8%;
+    }
+}
