@@ -121,7 +121,7 @@ h3, h4 {
 @media (max-width: 480px) {
     /* CSS FOR VERTICAL BLACK LINE */
     #soch {
-        padding-top: 30%;
+        padding-top: 20%;
     }
     .block:before {
         left: 0;
