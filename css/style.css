@@ -372,7 +372,7 @@ header.sticky .navigation li a:hover  {
     cursor: pointer;
 }
 .contactForm .inputBox input[type="submit"]:hover {
-        color: #111;
+    color: #111;
 }
 .map {
     justify-content: center;
@@ -406,7 +406,6 @@ header.sticky .navigation li a:hover  {
     z-index: 111;
     float: right;
  }
- 
  #fixed-social a {
     color: #fff;
     display: block;
@@ -417,23 +416,23 @@ header.sticky .navigation li a:hover  {
     width: 40px;
     margin-bottom: 1px;
     z-index: 2;
- }
- #fixed-social a:hover>span{
+}
+#fixed-social a:hover>span{
     visibility: visible;
     right: 41px;
     opacity: 1;
- } 
- #fixed-social a span {
-     line-height: 40px;
-     right: 60px;
-     position: absolute;
-     text-align: center;
-     width: 120px;
-     visibility: hidden;
-     transition-duration: 0.5s;
-     z-index: 1;
-     opacity: 0;
- }
+} 
+#fixed-social a span {
+    line-height: 40px;
+    right: 60px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    z-index: 1;
+    opacity: 0;
+}
   .fixed-facebook{
       background-color: #00AAE5;
   }
@@ -478,6 +477,9 @@ header.sticky .navigation li a:hover  {
  } */
 
  @media(max-width: 991px) {
+    header .navigation li a::before {
+        top: 32px;
+    }
     section {
         padding-top: 30%;
     }
