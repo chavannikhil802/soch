@@ -477,6 +477,9 @@ header.sticky .navigation li a:hover  {
  } */
 
  @media(max-width: 991px) {
+    .logo {
+        width: 25%;
+    }
     header .navigation li a::before {
         top: 32px;
     }
@@ -484,7 +487,7 @@ header.sticky .navigation li a:hover  {
         padding-top: 30%;
     }
     .logo img {
-        width: 70%;
+        width: 50%;
     }
     header {
         padding: 10px 20px;
@@ -537,6 +540,7 @@ header.sticky .navigation li a:hover  {
         background-position: center;
         cursor: pointer;
         transition: 0.3s;
+        padding-top: 8%;
     }
     .menuToggle.active {
         background: url("../images/close.png");
@@ -594,6 +598,9 @@ header.sticky .navigation li a:hover  {
     }
  }
  @media(max-width: 480px) {
+    .logo {
+        width: 40%;
+    }
     .sub-title p, .row .col70 .textBx p, #col1 ul li, #col2 ol li, .address p {
         font-size: 1em;
     }
