@@ -478,7 +478,7 @@ header.sticky .navigation li a:hover  {
 
  @media(max-width: 991px) {
     .logo {
-        width: 25%;
+        width: 30%;
     }
     header .navigation li a::before {
         top: 32px;
