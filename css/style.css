@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-section {
+section, #soch {
     padding: 7% 7%;
 }
 /* LOGO CSS */
@@ -231,6 +231,9 @@ header.sticky .navigation li a:hover  {
 /* END OF CSS FOR PRODUCTS SECTION */
 
 /* CSS FOR CRAFTING VIDEOS SECTION */
+#website {
+    background: #f3f3f3;
+}
 .website .row, .marketing .row, .contact .row {
     position: relative;
     width: 100%;
