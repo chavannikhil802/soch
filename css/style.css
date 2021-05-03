@@ -557,7 +557,7 @@ header.sticky .navigation li a:hover  {
          font-size: 2.5em;
          text-align: center;
      }
-     .row .col70 .textBx p, #col1 ul li, #col2 ol li, .sub-title p {
+     .row .col70 .textBx p, #col1 ul li, #col2 ul li, .sub-title p {
         font-size: 1.2em;
     }
     .products .content {
