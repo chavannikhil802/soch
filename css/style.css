@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-section, #soch {
+section, #soch, #map {
     padding: 7% 7%;
 }
 /* LOGO CSS */
