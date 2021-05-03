@@ -169,6 +169,9 @@ header.sticky .navigation li a:hover  {
 }
 /* END OF CSS FOR TEAM SECTION */
 /* CSS FOR SECTION TITLE AND SUB-TITLE SECTION*/
+.title {
+    text-transform: uppercase;
+}
 .title, .sub-title {
     display: flex;
     justify-content: center;
@@ -198,8 +201,8 @@ header.sticky .navigation li a:hover  {
 }
 
 .products .content .box {
-    width: 350px;
-    margin: 30px;
+    width: 320px;
+    margin: 20px;
     border: 15px solid #fff;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.20);
 }
