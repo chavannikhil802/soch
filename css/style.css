@@ -312,10 +312,10 @@ header.sticky .navigation li a:hover  {
     font-size: 1.9em;
     padding: 4%;
 }
-#col1 ul, #col2 ol {
-    padding-left: 10%;
+#col1 ul, #col2 ul {
+    padding-left: 5%;
 }
-#col1 ul li, #col2 ol li {
+#col1 ul li, #col2 ul li {
     font-size: 1.3em; 
 }
 /* END OF CSS FOR DIGITAL MARKETING SECTION */
@@ -606,7 +606,7 @@ header.sticky .navigation li a:hover  {
     .sub-title p, .row .col70 .textBx p, #col1 ul li, #col2 ol li, .address p {
         font-size: 1em;
     }
-    #col1 ul, #col2 ol {
+    #col1 ul, #col2 ul {
         padding-left: 10%;
     }
     .title h1, #website h1 {
