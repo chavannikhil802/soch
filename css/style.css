@@ -111,23 +111,23 @@ header.sticky .navigation li a:hover  {
     float: left;
 }
 .slider .container .slide.slide1 {
-    background: url("../images/bg1.jpg");
+    background: url("../images/Soch-Solutions-Image-Slider-1.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 .slider .container .slide.slide2 {
-    background: url("../images/bg2.jpg");
+    background: url("../images/Soch-Solutions-Image-Slider-2.jpg");
     background-size: cover;
     background-position: center;
 }
 .slider .container .slide.slide3 {
-    background: url("../images/bg3.jpg");
+    background: url("../images/Soch-Solutions-Image-Slider-3.jpg");
     background-size: cover;
     background-position: center;
 }
 .slider .container .slide.slide4 {
-    background: url("../images/bg4.jpg");
+    background: url("../images/Soch-Solutions-Image-Slider-4.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -263,7 +263,7 @@ header.sticky .navigation li a:hover  {
 }
 
 .row .col70 .textBx {
-    background: url("../images/banner1.jpg") no-repeat 0px 0px fixed;
+    background: url("../images/Soch-Solutions-Crafting-Websites.jpg") no-repeat 0px 0px fixed;
     background-size: cover;
     padding: 10%;
     margin: 6% 0 6% 6%;
