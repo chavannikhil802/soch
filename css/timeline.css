@@ -72,6 +72,23 @@ h3, h4 {
     opacity: 0;
     background-color: #aaa;
 }
+.description-title {
+    display: flex;
+}
+.description-title h3 {
+    margin: 7%;
+    font-size: 1.7em;
+}
+#experience, #services, #brand, #support {
+    width: 80px;
+    height: 80px;
+    /* margin-left: 2%; */
+}
+#experience, #product, #process {
+    filter: invert(1);  
+    width: 80px;
+    height: 80px;
+}
 @media(max-width: 1140px) {
     /* REDUCING THE SIZE OF THE TEXT BOXES */
     .each-event {
@@ -110,6 +127,17 @@ h3, h4 {
     .wrapper {
         padding-top: 30%;
     }
+    .description-title h3 {
+        font-size: 1.5em;
+    }
+    #experience, #services, #brand, #support {
+        width: 60px;
+        height: 60px;
+    }
+    #experience, #product, #process { 
+        width: 60px;
+        height: 60px;
+    }
 }
 @media (max-width: 700px) {
     /* CSS FOR VERTICAL BLACK LINE */
@@ -129,5 +157,16 @@ h3, h4 {
     }
     .event-description p {
         font-size: 0.9em;
+    }
+    .description-title h3 {
+        font-size: 1.3em;
+    }
+    #experience, #services, #brand, #support {
+        width: 50px;
+        height: 50px;
+    }
+    #experience, #product, #process { 
+        width: 50px;
+        height: 50px;
     }
 }
