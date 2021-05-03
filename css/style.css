@@ -204,7 +204,7 @@ header.sticky .navigation li a:hover  {
     width: 320px;
     margin: 20px;
     border: 15px solid #fff;
-    box-shadow: 12px 12px 12px #7676762e;
+    box-shadow: 8px 8px 12px #7676762e, -2px -2px 12px #7676762e;;
 }
 
 .products .content .box .imgBx {
@@ -341,7 +341,7 @@ header.sticky .navigation li a:hover  {
 .contactForm {
     padding: 75px 50px;
     background: #fff;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.5);
+    box-shadow: 6px 8px 22px #7676762e, -3px -4px 22px #7676762e;
     margin-top: 50px;
 }
 .contactForm .inputBox {
@@ -384,11 +384,10 @@ header.sticky .navigation li a:hover  {
 }
 
 .map iframe {
-    box-shadow: 0 15px 50px rgba(0,0,0,0.5);
+    box-shadow: 6px 8px 22px #7676762e, -3px -4px 22px #7676762e;
 }
 
 .copyrightText {
-    margin-top: 5%;
     padding: 18px 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
