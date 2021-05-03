@@ -204,7 +204,7 @@ header.sticky .navigation li a:hover  {
     width: 320px;
     margin: 20px;
     border: 15px solid #fff;
-    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.20);
+    box-shadow: 12px 12px 12px #7676762e;
 }
 
 .products .content .box .imgBx {
