@@ -263,7 +263,7 @@ header.sticky .navigation li a:hover  {
     background: url("../images/banner1.jpg") no-repeat 0px 0px fixed;
     background-size: cover;
     padding: 10%;
-    margin: 6%;
+    margin: 6% 0 6% 6%;
 }
 .row .col70 .textBx .overlay {
     width: 100%;
