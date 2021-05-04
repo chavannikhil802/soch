@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Soch Solutions - Helps you fulfill your Digital Dreams, SEO for Website, SMO for Website</title>
 </head>
-<body>
+<body id="body" class="mode" onload="checkMode()">
     <div id="fixed-social">
         <div>
           <a aria-label="Facebook" href="https://www.facebook.com/sochsolutions" class="fixed-facebook" target="_blank" rel="noopener"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
@@ -41,6 +41,7 @@
             <li><a href="#soch" onclick="toggleMenu();">Why SOCH?</a></li>
             <li><a href="#" onclick="toggleMenu();">Blog</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            <li><div class="toggle"></div></li>
         </ul>
     </header>
     <section class="slider" id="slider">
@@ -294,11 +295,11 @@
                             Opposite Shankar Maharaj Math,
                             <br/>
                             Dhankawadi, Pune, Maharashtra 411043.
-                            <br/><br/>
-                            <h3>EMAIL : </h3>info@sochsolutions.com
-                            <br/><br/>
-                            <h3>PHONE : </h3>+91 7447443661
                         </p>
+                        <br/><br/>
+                        <h3>EMAIL : </h3><p>info@sochsolutions.com</p>
+                        <br/><br/>
+                        <h3>PHONE : </h3><p>+91 7447443661</p>
                     </div>
                 </div>
             </div>
@@ -315,7 +316,9 @@
     <script type="text/javascript">
         window.addEventListener('scroll', function(){
             const header = document.querySelector('header');
+            // const body = document.querySelector('body');
             header.classList.toggle("sticky", window.scrollY > 0);
+            // body.classList.toggle("light-dark", window.scrollY > 400)
         });
 
         function toggleMenu(){
@@ -328,5 +331,22 @@
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+        const mode = document.querySelector('.mode');
+        const toggle = document.querySelector('.toggle');
+        toggle.onclick =function() {
+            mode.classList.toggle('dark');
+            var theme = document.getElementById("body").className;
+            localStorage.setItem('theme', theme);
+        }
+        // FUNCTION TO APPLY THE CURRENT THEME WHEN THE PAGE IS RELOADED
+        function checkMode() {
+            if(localStorage.getItem('theme') == "mode dark") {
+                document.getElementById("body").classList.add("dark");
+            }
+
+        }
+    </script>
 </body>
 </html>

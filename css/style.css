@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    transition: 0.7s;
 }
 section, #soch {
     padding: 7% 7%;
+    transition: 0.5s;
 }
 #map {
     padding: 0 7% 7% 7%;
@@ -27,7 +29,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 100px;
+    padding: 10px 50px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -77,7 +79,7 @@ header .navigation li a::before {
 /* CSS FOR STICKY HEADER */
 header.sticky {
     background: #fff;
-    padding: 3px 100px;
+    padding: 3px 50px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.788);
     opacity: 1;
 }
@@ -89,7 +91,45 @@ header.sticky .navigation li a  {
 header.sticky .navigation li a:hover  {
     color: #0691ec;
 }
+
 /* END OF CSS FOR STICKY HEADER */
+
+/* CSS FOR DARK MODE */
+.toggle {
+    background-color: #e9f5ff;
+    border-radius: 50%;
+    border: 1px solid #2fa1ff;
+    cursor: pointer;
+}
+.toggle:before {
+    content: '\f186';
+    font-family: fontAwesome;
+    color: #2fa1ff;
+}
+body.dark {
+    transition: 0.7s;
+}
+body.dark, body.dark #website, body.dark .wrapper, body.dark header, body.dark .toggle {
+    background: #111827;
+}
+body.dark .wrapper .block:before, body.dark .wrapper .each-event:before {
+    background-color: #fff;
+}
+body.dark .products .content .box {
+    background: #323840;
+    border: 15px solid #111827;
+}
+body.dark p, body.dark header .navigation li a,
+body.dark .products .content .box .text h4,
+body.dark h3 {
+    color: #fff;
+}
+body.dark header .navigation li .toggle:before {
+    content: '\f185';
+}
+
+/* END OF CSS FOR DARK MODE */
+
 /* IMAGE SLIDER CCS */
 .slider {
     position: relative;
@@ -411,7 +451,7 @@ header.sticky .navigation li a:hover  {
     z-index: 111;
     float: right;
  }
- #fixed-social a {
+ #fixed-social a, .toggle {
     color: #fff;
     display: block;
     height: 40px;
@@ -438,40 +478,41 @@ header.sticky .navigation li a:hover  {
     z-index: 1;
     opacity: 0;
 }
-  .fixed-facebook{
-      background-color: #00AAE5;
-  }
-  .fixed-facebook span{
-     background-color: #00AAE5;
-  }
-  .fixed-twitter{
-     background-color: #7D3895;
- 
-  }
-  .fixed-twitter span{
-      background-color: #7D3895;
-  }
-  .fixed-gplus{
-     background-color: #00AF54;
- 
-  }
-  .fixed-gplus span{
-      background-color: #00AF54;
-  }
-  .fixed-linkedin{
-     background-color: #FFC41E;
- 
-  }
-  .fixed-linkedin span{
-      background-color: #FFC41E;
-  }
-  .fixed-instagrem{
-     background-color: #ED2B29;
- 
-  }
-  .fixed-instagrem span{
-      background-color: #ED2B29;
-  }
+
+.fixed-facebook{
+    background-color: #00AAE5;
+}
+.fixed-facebook span{
+    background-color: #00AAE5;
+}
+.fixed-twitter{
+    background-color: #7D3895;
+
+}
+.fixed-twitter span{
+    background-color: #7D3895;
+}
+.fixed-gplus{
+    background-color: #00AF54;
+
+}
+.fixed-gplus span{
+    background-color: #00AF54;
+}
+.fixed-linkedin{
+    background-color: #FFC41E;
+
+}
+.fixed-linkedin span{
+    background-color: #FFC41E;
+}
+.fixed-instagrem{
+    background-color: #ED2B29;
+
+}
+.fixed-instagrem span{
+    background-color: #ED2B29;
+}
  /*end fixed social*/
  /* #menu-social {
      display: flex;
