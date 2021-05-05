@@ -2,7 +2,7 @@ h3, h4 {
     text-decoration: underline;
 }
 .wrapper {
-    background-color: #F4F4F4;
+    background-color: #f6f6f6;
     /* background: radial-gradient(#312d3c 8%, transparent 8%), #17141d; */
     background-position: 0 0, 26px 26px;
     background-size: 26px 26px;
