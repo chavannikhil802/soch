@@ -149,6 +149,12 @@ body.dark .contactForm, body.dark .products .content .box {
     background: #111827;
     box-shadow: 1px 1px 5px #7676762e, -2px -2px 5px #7676762e;
 }
+body.dark .team .team-content .col20 .imgBox img {
+    border: 1px solid #7676762e;
+}
+body.dark .team .team-content .col20 .team-text h4 {
+    color: #fff;
+}
 
 /* END OF CSS FOR DARK MODE */
 
