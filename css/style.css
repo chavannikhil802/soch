@@ -9,11 +9,11 @@
     transition: 0.7s;
 }
 section, #soch {
-    padding: 7% 7%;
+    padding: 5%;
     transition: 0.5s;
 }
 #map {
-    padding: 0 7% 7% 7%;
+    padding: 0 7% 1% 7%;
 }
 /* LOGO CSS */
 .logo {
@@ -115,6 +115,8 @@ body.dark .contactForm .inputBox input,
 body.dark .contactForm .inputBox textarea {
     background: #111827;
 }
+body.dark .contactForm .inputBox input,
+body.dark .contactForm .inputBox textarea,
 body.dark .contactForm .inputBox input::placeholder, 
 body.dark .contactForm .inputBox textarea::placeholder {
     color: #fff;
@@ -129,7 +131,7 @@ body.dark .products .content .box {
     background: #323840;
     border: 15px solid #111827;
 }
-body.dark header, body.dark .contactForm {
+body.dark header {
     background: #323840;
 }
 body.dark p, body.dark header .navigation li a,
@@ -142,6 +144,10 @@ body.dark header .navigation li .toggle:before {
 }
 body.dark header.sticky .menuToggle {
     filter: invert(0);
+}
+body.dark .contactForm, body.dark .products .content .box {
+    background: #111827;
+    box-shadow: 1px 1px 5px #7676762e, -2px -2px 5px #7676762e;
 }
 
 /* END OF CSS FOR DARK MODE */
