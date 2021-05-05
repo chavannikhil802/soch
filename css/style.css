@@ -10,7 +10,7 @@
 }
 section, #soch, .team {
     padding: 8% 5% 5% 5%;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 #map {
     padding: 0 7% 1% 7%;
@@ -130,7 +130,7 @@ body.dark .products .content .box {
     background: #323840;
     border: 15px solid #111827;
 }
-body.dark header {
+body.dark header, body.dark header .navigation.active {
     background: #323840;
 }
 body.dark p, body.dark header .navigation li a,
@@ -157,7 +157,9 @@ body.dark .team .team-content .col20 .team-text h4 {
 body.dark .team {
     background: #111827;
 }
-
+body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
+    filter: invert(1);
+}
 /* END OF CSS FOR DARK MODE */
 
 /* IMAGE SLIDER CCS */
