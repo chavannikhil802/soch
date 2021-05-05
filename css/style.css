@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    transition: 0.7s;
+    transition: 0.9s;
 }
 section, #soch, .team {
     padding: 8% 5% 5% 5%;
