@@ -532,7 +532,7 @@ body.dark .contactForm, body.dark .products .content .box {
     margin-top: 40px;
 }
 .team .team-content .col20 {
-    width: 230px;
+    width: 220px;
     margin: 10px;
     /* box-shadow: 1px 1px 5px #7676762e, -2px -2px 5px #7676762e; */
     padding: 1%;
@@ -540,7 +540,7 @@ body.dark .contactForm, body.dark .products .content .box {
 .team .team-content .col20 .imgBox {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 180px;
 }
 .team .team-content .col20 .imgBox img {
     position: absolute;
