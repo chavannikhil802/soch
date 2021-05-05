@@ -155,6 +155,9 @@ body.dark .team .team-content .col20 .imgBox img {
 body.dark .team .team-content .col20 .team-text h4 {
     color: #fff;
 }
+body.dark .team {
+    background: #111827;
+}
 
 /* END OF CSS FOR DARK MODE */
 
@@ -295,7 +298,7 @@ body.dark .team .team-content .col20 .team-text h4 {
 /* END OF CSS FOR PRODUCTS SECTION */
 
 /* CSS FOR CRAFTING VIDEOS SECTION */
-#team, #website {
+.team, #website {
     background: #f6f6f6;
 }
 .website .row, .marketing .row, .contact .row {
