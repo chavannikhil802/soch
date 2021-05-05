@@ -138,6 +138,9 @@ body.dark .products .content .box .text h4,
 body.dark h3 {
     color: #fff;
 }
+body.dark header .navigation li a:hover {
+    color: #0691ec;
+}
 body.dark header .navigation li .toggle:before {
     content: '\f185';
 }
@@ -623,8 +626,9 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
         line-height: 2em;
     }
     header.sticky .navigation li a:hover  {
-        color: #111;
+        color: #0691ec;
     }
+    
     .menuToggle {
         position: relative;
         width: 40px;
