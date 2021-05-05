@@ -110,8 +110,7 @@ body.dark {
     transition: 0.7s;
 }
 body.dark, body.dark #website, body.dark .wrapper,
-body.dark .toggle,body.dark header .navigation.active,
-body.dark .contactForm .inputBox input, 
+body.dark .toggle, body.dark .contactForm .inputBox input, 
 body.dark .contactForm .inputBox textarea {
     background: #111827;
 }
