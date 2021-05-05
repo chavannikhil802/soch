@@ -109,8 +109,18 @@ header.sticky .navigation li a:hover  {
 body.dark {
     transition: 0.7s;
 }
-body.dark, body.dark #website, body.dark .wrapper, body.dark header, body.dark .toggle {
+body.dark, body.dark #website, body.dark .wrapper,
+body.dark .toggle,body.dark header .navigation.active,
+body.dark .contactForm .inputBox input, 
+body.dark .contactForm .inputBox textarea {
     background: #111827;
+}
+body.dark .contactForm .inputBox input::placeholder, 
+body.dark .contactForm .inputBox textarea::placeholder {
+    color: #fff;
+}
+body.dark .contactForm .inputBox input[type=submit] {
+    background: #0691ec;
 }
 body.dark .wrapper .block:before, body.dark .wrapper .each-event:before {
     background-color: #fff;
@@ -119,6 +129,9 @@ body.dark .products .content .box {
     background: #323840;
     border: 15px solid #111827;
 }
+body.dark header, body.dark .contactForm {
+    background: #323840;
+}
 body.dark p, body.dark header .navigation li a,
 body.dark .products .content .box .text h4,
 body.dark h3 {
@@ -126,6 +139,9 @@ body.dark h3 {
 }
 body.dark header .navigation li .toggle:before {
     content: '\f185';
+}
+body.dark header.sticky .menuToggle {
+    filter: invert(0);
 }
 
 /* END OF CSS FOR DARK MODE */
@@ -540,7 +556,7 @@ body.dark header .navigation li .toggle:before {
         transition: 0.5s;
     }
     header.sticky {
-        padding: 10px 20px 0 10px;
+        padding: 10px 20px;
         transition: 0.5s;
     }
     header .navigation {
