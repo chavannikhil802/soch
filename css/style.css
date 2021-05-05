@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
     transition: 0.7s;
 }
-section, #soch {
+section, #soch, .team {
     padding: 5%;
     transition: 0.5s;
 }
@@ -223,16 +223,6 @@ body.dark .contactForm, body.dark .products .content .box {
     }
 }
 /* END OF IMAGE SLIDER CCS */
-/* CSS FOR TEAM SECTION */
-.team {
-    padding: 5% 0 5% 0;
-}
-.team .row img {
-    background-size: cover;
-    padding: 0 5% 0 5%;
-    width: 100%;
-}
-/* END OF CSS FOR TEAM SECTION */
 /* CSS FOR SECTION TITLE AND SUB-TITLE SECTION*/
 .title {
     text-transform: uppercase;
@@ -535,14 +525,41 @@ body.dark .contactForm, body.dark .products .content .box {
 .fixed-instagrem span{
     background-color: #ED2B29;
 }
- /*end fixed social*/
- /* #menu-social {
-     display: flex;
- }
- #menu-social .fixed-facebook, #menu-social .fixed-twitter, #menu-social .fixed-gplus, 
- #menu-social .fixed-linkedin, #menu-social .fixed-instagrem {
-    padding: 50%;
- } */
+.team .team-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.team .team-content .col20 {
+    width: 230px;
+    margin: 10px;
+    /* box-shadow: 1px 1px 5px #7676762e, -2px -2px 5px #7676762e; */
+    padding: 1%;
+}
+.team .team-content .col20 .imgBox {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.team .team-content .col20 .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #7676762e, -1px -1px 5px #7676762e;
+}
+.team .team-content .col20 .team-text h4 {
+    text-decoration: none;
+}
+.imgBox, .team-text {
+    text-align: center;
+    margin-top: 8%;  
+}
+
 
  @media(max-width: 991px) {
     .logo {
