@@ -29,7 +29,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 50px;
+    padding: 10px 20px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ header .navigation {
     position: relative;
     display: flex;
     list-style: none;
-    width: 90vw;
+    width: 100vw;
     justify-content: flex-end;
     align-items: center;
 }
@@ -79,7 +79,7 @@ header .navigation li a::before {
 /* CSS FOR STICKY HEADER */
 header.sticky {
     background: #fff;
-    padding: 3px 50px;
+    padding: 3px 20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.788);
     opacity: 1;
 }
@@ -573,8 +573,46 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     margin-top: 8%;  
 }
 
+@media(max-width: 1290px) {
+    header .navigation li a, header.sticky .navigation li a {
+        margin: 0 0.5vw;
+    }
+    header .navigation li, header.sticky .navigation li {
+        margin-left: 2px;
+    }
+    .toggle {
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
 
- @media(max-width: 991px) {
+        margin-bottom: 1px;
+        z-index: 2;
+    }
+}
+@media(max-width: 1190px) {
+    header .navigation li a, header.sticky .navigation li a {
+        font-size: 14px;
+    }
+    .logo img {
+        width: 38%;
+    }
+}
+@media(max-width: 1111px) {
+    header .navigation li a, header.sticky .navigation li a {
+        font-size: 13px;
+    }
+    .logo img {
+        width: 36%;
+    }
+}@media(max-width: 1039px) {
+    .logo {
+        width: 32%;
+    }
+    .logo img {
+        width: 40%;
+    }
+}
+@media(max-width: 991px) {
     .logo {
         width: 30%;
     }
@@ -628,7 +666,7 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     header.sticky .navigation li a:hover  {
         color: #0691ec;
     }
-    
+
     .menuToggle {
         position: relative;
         width: 40px;
@@ -650,12 +688,12 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     header.sticky .menuToggle {
         filter: invert(1);
     }
-     .title h1 {
-         font-size: 2.5em;
-         text-align: center;
-     }
-     .row .col70 .textBx p, #col1 ul li, #col2 ul li, .sub-title p {
-        font-size: 1.2em;
+    .title h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .row .col70 .textBx p, #col1 ul li, #col2 ul li, .sub-title p {
+    font-size: 1.2em;
     }
     .products .content {
         margin-top: 0px;
@@ -695,8 +733,8 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     .address h3, h3 {
         font-size: 1.3em;
     }
- }
- @media(max-width: 480px) {
+}
+@media(max-width: 480px) {
     .logo {
         width: 40%;
     }
@@ -709,8 +747,8 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     .title h1, #website h1 {
         font-size: 2em;
     }
- }
- @media (max-width: 1250px) {
+    }
+    @media (max-width: 1250px) {
     .website h1 {
         font-size: 4.1em;
     }
