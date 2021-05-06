@@ -773,7 +773,6 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     background-color: #111827;
     text-align: center;
     padding: 5px;
-    border-radius: 10px; /* This defines tooltip text position */
     position: absolute;
     z-index: 1;
     top: 67%;
