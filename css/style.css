@@ -160,8 +160,11 @@ body.dark .team .team-content .col20 .team-text h4 {
 body.dark .team {
     background: #111827;
 }
-body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
+/* body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     filter: invert(1);
+} */
+body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p {
+    color: #111;
 }
 /* END OF CSS FOR DARK MODE */
 
