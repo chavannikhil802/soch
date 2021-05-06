@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    transition: 0.9s;
+    /* transition: 0.9s; */
 }
 section, #soch, .team {
     padding: 8% 5% 5% 5%;
@@ -297,7 +297,11 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
 .products .content .box .text h4 {
     font-weight: 400;
     color: #111;
-
+    text-align:center;
+}
+#engage {
+    font-weight: 600;
+    text-decoration: underline;
 }
 /* END OF CSS FOR PRODUCTS SECTION */
 
@@ -755,4 +759,26 @@ body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     .row .col70 .textBx {
         margin: 8%;
     }
+}
+.tooltip-ex { /* Container for our tooltip */
+    position: relative; 
+    /* display: inline-block; */
+}
+   
+.tooltip-ex .tooltip-ex-text { /* This is for the tooltip text */
+    visibility: hidden;
+    width: 100%;
+    background-color: #111827;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px; /* This defines tooltip text position */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip-ex:hover .tooltip-ex-text { /* Makes tooltip text visible when text is hovered on */
+    visibility: visible;
+}
+#tooltip-text span a {
+    color: white;
+    text-decoration: none;
 }
