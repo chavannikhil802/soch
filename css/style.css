@@ -769,7 +769,6 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 }
    
 .tooltip-ex .tooltip-ex-text { /* This is for the tooltip text */
-    visibility: hidden;
     width: 100%;
     background-color: #111827;
     text-align: center;
@@ -777,9 +776,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     border-radius: 10px; /* This defines tooltip text position */
     position: absolute;
     z-index: 1;
-}
-.tooltip-ex:hover .tooltip-ex-text { /* Makes tooltip text visible when text is hovered on */
-    visibility: visible;
+    top: 67%;
 }
 #tooltip-text span a {
     color: white;
