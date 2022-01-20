@@ -6,32 +6,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soch Solutions - Helps you fulfill your Digital Dreams, SEO for Website, SMO for Website">
+    <meta name="keywords" content="Soch Solutions, Soch Online, Soch, SEO, SMO Crafting Websites, Website Designing, Website Development, Website, Internet Marketing, Social Media, Digital Media Services, Internet Marketing & Social Media">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Soch Solutions</title>
+    <title>Soch Solutions - Helps you fulfill your Digital Dreams, SEO for Website, SMO for Website</title>
 </head>
-<body>
+<body id="body" class="mode" onload="checkMode()">
     <div id="fixed-social">
         <div>
-          <a href="https://www.facebook.com/sochsolutions" class="fixed-facebook" target="_blank"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
+          <a aria-label="Facebook" href="https://www.facebook.com/sochsolutions" class="fixed-facebook" target="_blank" rel="noopener"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
         </div>
         <div>
-            <a href="https://www.instagram.com/soch_solutions/" class="fixed-instagrem" target="_blank"><i class="fa fa-instagram"></i> <span>Instagram</span></a>
+            <a aria-label="Instagram" href="https://www.instagram.com/soch_solutions/" class="fixed-instagrem" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> <span>Instagram</span></a>
           </div>
         <div>
-          <a href="https://twitter.com/soch_solutions" class="fixed-twitter" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
+          <a aria-label="Twitter" href="https://twitter.com/soch_solutions" class="fixed-twitter" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
         </div>
         <div>
-            <a href="https://www.linkedin.com/company/sochsolutionspune" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i> <span>LinkedIn</span></a>
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/company/sochsolutionspune" class="fixed-linkedin" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> <span>LinkedIn</span></a>
           </div>
         <div>
-          <a href="https://in.pinterest.com/sochsolutions19/" class="fixed-gplus" target="_blank"><i class="fa fa-pinterest"></i> <span>Pinterest</span></a>
+          <a aria-label="Pinterest" href="https://in.pinterest.com/sochsolutions19/" class="fixed-gplus" target="_blank" rel="noopener"><i class="fa fa-pinterest"></i> <span>Pinterest</span></a>
         </div>
     </div>
     <header>
-        <a href="#" class="logo"><img src="images/soch.png" alt=""></a>
+        <a href="#" class="logo"><img src="images/Soch-Solutions-Logo.png" alt="Soch Solutions Logo"></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu();">Home</a></li>
@@ -41,23 +43,7 @@
             <li><a href="#soch" onclick="toggleMenu();">Why SOCH?</a></li>
             <li><a href="#" onclick="toggleMenu();">Blog</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-            <!-- <ul id="menu-social">
-                <li>
-                  <a href="https://www.facebook.com/sochsolutions" class="fixed-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/soch_solutions/" class="fixed-instagrem" target="_blank"><i class="fa fa-instagram"></i></a>
-                  </li>
-                <li>
-                  <a href="https://twitter.com/soch_solutions" class="fixed-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/sochsolutionspune" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                  </li>
-                <li>
-                  <a href="https://in.pinterest.com/sochsolutions19/" class="fixed-gplus" target="_blank"><i class="fa fa-pinterest"></i></a>
-                </li>
-              </ul> -->
+            <li><div class="toggle"></div></li>
         </ul>
     </header>
     <section class="slider" id="slider">
@@ -71,8 +57,88 @@
     </section>
 
     <section class="team" id="team">
-        <div class="row">
-            <img src="images/teammodel.jpg" alt="">
+        <div class="title"><h1><span id="title-blue">Build Your Dedicated</span> Team in India</h1></div>
+        <div class="team-content">
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-Solutions-Team-Building-1.png" alt="Soch Solutions Team Building 1">
+                </div>
+                <div class="team-text">
+                    <h4>Flexibility to recruit & pay the salaries yourself</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-2.png" alt="Soch Solutions Team Building 2">
+                </div>
+                <div class="team-text">
+                    <h4>Access to Wide Range of IT Experts</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-3.png" alt="Soch Solutions Team Building 3">
+                </div>
+                <div class="team-text">
+                    <h4>You get complete control over the resources</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-4.png" alt="Soch Solutions Team Building 4">
+                </div>
+                <div class="team-text">
+                    <h4>Transparent Engagement Model</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-5.png" alt="Soch Solutions Team Building 5">
+                </div>
+                <div class="team-text">
+                    <h4>Safe on Infrastructure</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-6.png" alt="Soch Solutions Team Building 6">
+                </div>
+                <div class="team-text">
+                    <h4>Utitlize resources for multiple projects</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-7.png" alt="Soch Solutions Team Building 7">
+                </div>
+                <div class="team-text">
+                    <h4>100% Confidentiality</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-8.png" alt="Soch Solutions Team Building 8">
+                </div>
+                <div class="team-text">
+                    <h4>Monthly Payment</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-9.png" alt="Soch Solutions Team Building 9">
+                </div>
+                <div class="team-text">
+                    <h4>Save on cost for Long Term Projects</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-10.png" alt="Soch Solutions Team Building 10">
+                </div>
+                <div class="team-text">
+                    <h4>Extend your team with 1 employee & grow</h4>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -80,17 +146,24 @@
         <div class="title"><h1><span id="title-blue">Our</span> Products</h1></div>
         <div class="sub-title"><p>Our Online Platform Offers DIGITAL CAMPAIGNS & ENGAGEMENT SOLUTIONS Such As</p></div>
         <div class="content">
-            <div class="box">
+            <div class="box tooltip-ex" id="tooltip">
                 <div class="imgBx">
-                    <img src="images/g1.jpg" alt="">
+                    <a aria-label="Engagemints Employee Engagement" href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener">
+                        <img src="images/Soch-Solutions-Employee Management and Team Building Solutions.jpg" 
+                        alt="Soch Solutions Employee Management and Team Building Solutions">
+                    </a>
+                    <span class="tooltip-ex-text" id="tooltip-text">
+                        <span><a href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener">Click below to know more about Engagemints Employee Management</a></span>
+                    </span>
                 </div>
                 <div class="text">
-                    <h4>Employee Management and Team Building Solutions</h4>
+                    <a href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener"><b><h4 id="engage">Employee Management and Team Building Solutions</h4></b></a>
                 </div>
             </div>
             <div class="box">
                 <div class="imgBx">
-                    <img src="images/g2.jpg" alt="">
+                    <img src="images/Soch-Solutions-Branding-Campaigns.jpg"
+                     alt="Soch Solutions Branding Campaigns">
                 </div>
                 <div class="text">
                     <h4>Branding Campaigns</h4>
@@ -98,7 +171,8 @@
             </div>
             <div class="box">
                 <div class="imgBx">
-                    <img src="images/g3.jpg" alt="">
+                    <img src="images/Soch-Solutions-Customer-Dealer-Loyalty-Campaigns.jpg"
+                     alt="Soch Solutions Customer/Dealer Loyalty Campaigns">
                 </div>
                 <div class="text">
                     <h4>Customer/Dealer Loyalty Campaigns</h4>
@@ -106,16 +180,17 @@
             </div>
             <div class="box">
                 <div class="imgBx">
-                    <img src="images/g4.jpg" alt="">
+                    <img src="images/Soch-Solutions-End-User-Engagement-Programs.jpg"
+                     alt="Soch Solutions End User Engagement Programs">
                 </div>
                 <div class="text">
-                    <h4>End User
-                        Engagement Programs</h4>
+                    <h4>End User Engagement Programs</h4>
                 </div>
             </div>
             <div class="box">
                 <div class="imgBx">
-                    <img src="images/g5.jpg" alt="">
+                    <img src="images/Soch-Solutions-Customer-Dealer-Loyalty-Campaigns.jpg"
+                     alt="Soch Solutions Customer Experience Enhancement Solutions">
                 </div>
                 <div class="text">
                     <h4>Customer Experience Enhancement Solutions</h4>
@@ -123,7 +198,8 @@
             </div>
             <div class="box">
                 <div class="imgBx">
-                    <img src="images/g6.jpg" alt="">
+                    <img src="images/Soch-Solutions-Sales-Engagement-Program.jpg"
+                     alt="Soch Solutions Sales Engagement Program">
                 </div>
                 <div class="text">
                     <h4>Sales Engagement Program</h4>
@@ -152,7 +228,7 @@
         <div class="title"><h1><span id="title-blue">Internet Marketing </span>& Social Media</h1></div>
         <div class="row">
             <div class="col50" id="col1">
-                <div class="title"><h2>Where to apply Digital Media?</h2></div>
+                <div class="title"><h2>Where should you apply Digital Media?</h2></div>
                 <ul>
                     <li>Branding</li>
                     <li>Sales</li>
@@ -162,8 +238,8 @@
                 </ul>
             </div>
             <div class="col50" id="col2">
-                <div class="title"><h2>What are the Digital Media Services?</h2></div>
-                <ol>
+                <div class="title"><h2>What are Digital Media Services?</h2></div>
+                <ul>
                     <li>DMS – Digital Media Strategy</li>
                     <li>SEO – Search Engine Optimization</li>
                     <li>SMO – Social Media Optimization</li>
@@ -171,7 +247,7 @@
                     <li>Internet Campaigns for Marketing / Research</li>
                     <li>Online Shop, Payment Gateway, Delivery Logistics</li>
                     <li>PPC, Bulk Emailing, Paid Ads and more…</li>
-                </ol>
+                </ul>
             </div>
         </div>
     </section>
@@ -180,9 +256,13 @@
             <div class="each-year">
                 <div class="title"><h1><span id="title-blue">WHY</span> SOCH?</h1></div>
                 <div class="each-event">
-                    <div class="event-description">
-                       <h3>Experience</h3>
-                       <br/>
+                    <div class="event-description" id="odd1">
+                        <div class="description-title">
+                            <img id="experience" src="./images/Soch-Solutions-Experience.png"
+                             alt="Soch Solutions Experience">
+                            <h3>Experience</h3>
+                        </div>
+                        <br/>
                        <p>
                             Established in 2001, Soch Solutions boasts of an illustrious years of expertise and constantly upgraded skills. 
                             With a strong team of skilled professionals including experienced programmers, creative designers, technical consulting team, 
@@ -192,7 +272,11 @@
                 </div>
                 <div class="each-event">
                     <div class="event-description">
-                        <h3>Services</h3>
+                        <div class="description-title">
+                            <img id="services" src="./images/Soch-Solutions-Service.png"
+                             alt="Soch Solutions Service">
+                            <h3>Services</h3>
+                        </div>
                         <br/>
                         <p>
                             Portfolio Offers a complete range of web solutions including web designing, web hosting, e-commerce solutions, 
@@ -203,7 +287,11 @@
                 </div>
                 <div class="each-event">
                     <div class="event-description">
-                        <h3>Products</h3>
+                        <div class="description-title">
+                            <img id="product" src="./images/Soch-Solutions-Products.png"
+                             alt="Soch Solutions Products">
+                            <h3>Products</h3>
+                        </div>
                         <br/>
                         <p>
                             Our products are designed to help you carry out innovative digital campaigns for your employees, dealers and customers.
@@ -212,7 +300,11 @@
                 </div>
                 <div class="each-event">
                     <div class="event-description">
-                       <h3>Brand</h3>
+                        <div class="description-title">
+                            <img id="brand" src="./images/Soch-Solutions-Brand.png"
+                             alt="Soch Solutions Brand">
+                            <h3>Brand</h3>
+                        </div>
                        <br/>
                        <p>
                             Soch Solutions has 100% customer retention rate and is the most trusted solutions provider that delivers its promise.
@@ -221,7 +313,11 @@
                 </div>
                 <div class="each-event">
                     <div class="event-description">
-                       <h3>Work Process</h3>
+                        <div class="description-title">
+                            <img id="process" src="./images/Soch-Solutions-Process.png"
+                             alt="Soch Solutions Process">
+                            <h3>Work Process</h3>
+                        </div>
                        <br/>
                        <p>
                             With enriching years and global exposure, we have complete expertise to deal with customers from different 
@@ -232,7 +328,11 @@
                 </div>
                 <div class="each-event">
                     <div class="event-description">
-                       <h3>Support</h3>
+                        <div class="description-title">
+                            <img id="support" src="./images/Soch-Solutions-Support.png"
+                             alt="Soch Solutions Support">
+                            <h3>Support</h3>
+                        </div>
                        <br/>
                        <p>
                             For each phase, we will be there to help and guide you through the process. After the go live, 
@@ -271,7 +371,7 @@
                 </div>
                 <div class="col50">
                     <div class="address">
-                        <h3>ADDRESS:-</h3>
+                        <h3>ADDRESS :</h3>
                         <br/>
                         <h3>Soch Solutions</h3>
                         <p>
@@ -282,28 +382,30 @@
                             Opposite Shankar Maharaj Math,
                             <br/>
                             Dhankawadi, Pune, Maharashtra 411043.
-                            <br/><br/>
-                            <h3>Email : </h3>info@sochsolutions.com
-                            <br/><br/>
-                            <h3>Phone : </h3>+91 7447443661
                         </p>
+                        <br/><br/>
+                        <h3>EMAIL : </h3><p>info@sochsolutions.com</p>
+                        <br/><br/>
+                        <h3>PHONE : </h3><p>+91 7447443661</p>
                     </div>
                 </div>
             </div>
     </section>
-    <div class="row">
+    <section class="map" id="map">
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.3030706417253!2d73.85479551478798!3d18.469926275541994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eabb04817573%3A0xccf299c042e9549b!2sSoch%20Solutions!5e0!3m2!1sen!2sin!4v1617439623449!5m2!1sen!2sin" 
-            style="border:0;width: 100vw;height: 70vh;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe title="Soch Solutions Address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.3030706417253!2d73.85479551478798!3d18.469926275541994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eabb04817573%3A0xccf299c042e9549b!2sSoch%20Solutions!5e0!3m2!1sen!2sin!4v1617439623449!5m2!1sen!2sin" 
+            style="border:0;width: 80vw;height: 70vh;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-    </div>
+    </section>
     <div class="copyrightText">
-        <p>Web & Social Presence By <a href=""><span id="title-blue">Soch</span>&nbsp;<span id="title-orange">Solutions</span></a></p>
+        <p>Web & Social Presence By <a href="#"><span id="title-blue">Soch</span>&nbsp;<span id="title-orange">Solutions</span></a></p>
     </div>
     <script type="text/javascript">
         window.addEventListener('scroll', function(){
             const header = document.querySelector('header');
+            // const body = document.querySelector('body');
             header.classList.toggle("sticky", window.scrollY > 0);
+            // body.classList.toggle("light-dark", window.scrollY > 400)
         });
 
         function toggleMenu(){
@@ -313,7 +415,24 @@
             navigation.classList.toggle('active');
         }
     </script>
-    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+        const mode = document.querySelector('.mode');
+        const toggle = document.querySelector('.toggle');
+        toggle.onclick =function() {
+            mode.classList.toggle('dark');
+            var theme = document.getElementById("body").className;
+            localStorage.setItem('theme', theme);
+        }
+        // FUNCTION TO APPLY THE CURRENT THEME WHEN THE PAGE IS RELOADED
+        function checkMode() {
+            if(localStorage.getItem('theme') == "mode dark") {
+                document.getElementById("body").classList.add("dark");
+            }
+        }
+    </script>
 </body>
 </html>
