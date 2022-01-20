@@ -1,4 +1,6 @@
-<?php// include("zen.html"); ?>
+<?php// include("zen.html");
+    echo "1";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
