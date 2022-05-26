@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Soch Solutions - Helps you fulfill your Digital Dreams, SEO for Website, SMO for Website">
-    <meta name="keywords" content="Soch Solutions, Soch Online, Soch, SEO, SMO Crafting Websites, Website Designing, Website Development, Website, Internet Marketing, Social Media, Digital Media Services, Internet Marketing & Social Media">
+    <meta name="keywords" content="Soch Solutions, Soch Online, Soch, SEO, SMO Crafting Websites, Website Designing, Website Development, Website, Internet Marketing, Social Media, Digital Media Services, Digital Marketing">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon">
@@ -35,224 +35,48 @@
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu();">Home</a></li>
-            <li><a href="#products" onclick="toggleMenu();">Products</a></li>
-            <li><a href="#website" onclick="toggleMenu();">Crafting Websites</a></li>
-            <li><a href="#marketing" onclick="toggleMenu();">Internet Marketing & Social Media</a></li>
-            <li><a href="#soch" onclick="toggleMenu();">Why SOCH?</a></li>
-            <li><a href="#" onclick="toggleMenu();">Blog</a></li>
+            <li><a href="#soch" onclick="toggleMenu();">About Us (Why SOCH?)</a></li>
+            <li class="dropdown"><a href="#" onclick="toggleMenu();">Products & Services &#9660;</a>
+                <div class="dropdown-content">
+                    <a href="#team">Build Your Team in India</a>
+                    <a href="#website">Crafting Websites</a>
+                    <a href="#marketing">Digital Marketing</a>
+                    <a href="#video-creation">Video Creation</a>
+                    <a href="#lead">Lead Generation</a>
+                </div>
+            </li>
+            <!-- <li><a href="#website" onclick="toggleMenu();">Crafting Websites</a></li>
+            <li><a href="#marketing" onclick="toggleMenu();">Digital Marketing</a></li>
+            <li><a href="#" onclick="toggleMenu();">Blog</a></li> -->
             <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
             <li><div class="toggle"></div></li>
         </ul>
     </header>
     <section class="slider" id="slider">
         <div class="container">
-            <div class="slide slide1"></div>
-            <div class="slide slide2"></div>
-            <div class="slide slide3"></div>
-            <div class="slide slide4"></div>
-            <div class="slide slide1"></div>
+            <div class="slide slide1"><h1>#BuildYourTalentedTeam</h1></div>
+            <div class="slide slide2"><h1>CAPTIVE VIDEO CREATION</h1></div>
+            <div class="slide slide3"><h1>DIGITAL MARKETING FOR GROWTH</h1></div>
+            <div class="slide slide1"><h1>#BuildYourTalentedTeam</h1></div>
         </div>
     </section>
 
-    <section class="team" id="team">
-        <div class="title"><h1><span id="title-blue">Build Your Dedicated</span> Team in India</h1></div>
-        <div class="team-content">
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-Solutions-Team-Building-1.png" alt="Soch Solutions Team Building 1">
-                </div>
-                <div class="team-text">
-                    <h4>Flexibility to recruit & pay the salaries yourself</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-2.png" alt="Soch Solutions Team Building 2">
-                </div>
-                <div class="team-text">
-                    <h4>Access to Wide Range of IT Experts</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-3.png" alt="Soch Solutions Team Building 3">
-                </div>
-                <div class="team-text">
-                    <h4>You get complete control over the resources</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-4.png" alt="Soch Solutions Team Building 4">
-                </div>
-                <div class="team-text">
-                    <h4>Transparent Engagement Model</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-5.png" alt="Soch Solutions Team Building 5">
-                </div>
-                <div class="team-text">
-                    <h4>Safe on Infrastructure</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-6.png" alt="Soch Solutions Team Building 6">
-                </div>
-                <div class="team-text">
-                    <h4>Utitlize resources for multiple projects</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-7.png" alt="Soch Solutions Team Building 7">
-                </div>
-                <div class="team-text">
-                    <h4>100% Confidentiality</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-8.png" alt="Soch Solutions Team Building 8">
-                </div>
-                <div class="team-text">
-                    <h4>Monthly Payment</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-9.png" alt="Soch Solutions Team Building 9">
-                </div>
-                <div class="team-text">
-                    <h4>Save on cost for Long Term Projects</h4>
-                </div>
-            </div>
-            <div class="col20">
-                <div class="imgBox">
-                    <img src="images/Soch-solutions-Team-Building-10.png" alt="Soch Solutions Team Building 10">
-                </div>
-                <div class="team-text">
-                    <h4>Extend your team with 1 employee & grow</h4>
-                </div>
-            </div>
-        </div>
+    <section class="nutshell">
+        <img src="images/soch-solutions-in-a-nutshell.jpg" alt="Soch Solutions in a Nutshell">
     </section>
 
-    <section class="products" id="products">
-        <div class="title"><h1><span id="title-blue">Our</span> Products</h1></div>
-        <div class="sub-title"><p>Our Online Platform Offers DIGITAL CAMPAIGNS & ENGAGEMENT SOLUTIONS Such As</p></div>
-        <div class="content">
-            <div class="box tooltip-ex" id="tooltip">
-                <div class="imgBx">
-                    <a aria-label="Engagemints Employee Engagement" href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener">
-                        <img src="images/Soch-Solutions-Employee Management and Team Building Solutions.jpg" 
-                        alt="Soch Solutions Employee Management and Team Building Solutions">
-                    </a>
-                    <span class="tooltip-ex-text" id="tooltip-text">
-                        <span><a href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener">Click below to know more about Engagemints Employee Management</a></span>
-                    </span>
-                </div>
-                <div class="text">
-                    <a href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener"><b><h4 id="engage">Employee Management and Team Building Solutions</h4></b></a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="images/Soch-Solutions-Branding-Campaigns.jpg"
-                     alt="Soch Solutions Branding Campaigns">
-                </div>
-                <div class="text">
-                    <h4>Branding Campaigns</h4>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="images/Soch-Solutions-Customer-Dealer-Loyalty-Campaigns.jpg"
-                     alt="Soch Solutions Customer/Dealer Loyalty Campaigns">
-                </div>
-                <div class="text">
-                    <h4>Customer/Dealer Loyalty Campaigns</h4>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="images/Soch-Solutions-End-User-Engagement-Programs.jpg"
-                     alt="Soch Solutions End User Engagement Programs">
-                </div>
-                <div class="text">
-                    <h4>End User Engagement Programs</h4>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="images/Soch-Solutions-Customer-Dealer-Loyalty-Campaigns.jpg"
-                     alt="Soch Solutions Customer Experience Enhancement Solutions">
-                </div>
-                <div class="text">
-                    <h4>Customer Experience Enhancement Solutions</h4>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="images/Soch-Solutions-Sales-Engagement-Program.jpg"
-                     alt="Soch Solutions Sales Engagement Program">
-                </div>
-                <div class="text">
-                    <h4>Sales Engagement Program</h4>
-                </div>
-            </div>
-    </section>
-    <section class="website" id="website">
-        <div class="row">
-            <div class="col30">
-                <div class="title"><h1><span id="title-blue">Crafting</span> Websites</h1></div><br>
-            </div>
-            <div class="col70">
-                <div class="textBx">
-                    <div class="overlay">
-                        <p>
-                            We start with competitor’s analysis, market research that serves as input to design apt Website.
-                            Develop and host. We consider 26 design parameters that include Mobile compatibility, 
-                            Search engine Readiness, Usability concerns, speed, etc. Monthly Web analysis report contains 26 corners!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="marketing" id="marketing">
-        <div class="title"><h1><span id="title-blue">Internet Marketing </span>& Social Media</h1></div>
-        <div class="row">
-            <div class="col50" id="col1">
-                <div class="title"><h2>Where should you apply Digital Media?</h2></div>
-                <ul>
-                    <li>Branding</li>
-                    <li>Sales</li>
-                    <li>Marketing</li>
-                    <li>Operations</li>
-                    <li>Support</li>
-                </ul>
-            </div>
-            <div class="col50" id="col2">
-                <div class="title"><h2>What are Digital Media Services?</h2></div>
-                <ul>
-                    <li>DMS – Digital Media Strategy</li>
-                    <li>SEO – Search Engine Optimization</li>
-                    <li>SMO – Social Media Optimization</li>
-                    <li>Website Design and Management</li>
-                    <li>Internet Campaigns for Marketing / Research</li>
-                    <li>Online Shop, Payment Gateway, Delivery Logistics</li>
-                    <li>PPC, Bulk Emailing, Paid Ads and more…</li>
-                </ul>
-            </div>
-        </div>
-    </section>
     <div class="wrapper" id="soch">
         <section class="block">
             <div class="each-year">
-				<div class="title"><h1><span id="title-blue">WHY</span> SOCH?</h1></div>
+                <div class="title">
+                    <h1><span id="title-blue">WHY</span> SOCH?</h1>                
+                </div>
+                <div class="about-us">
+                    <P>
+                        Soch Solutions is a leading I.T. company since 2001. We have been working with corporate organizations across the globe for their various requirements. We are the gateway for international companies to the talent in India through our outsourcing and insourcing solutions as well as the range of other services we provide like digital marketing, video creation, etc.
+                        We are proud to be associated with the London School of DIGITAL BUSINESS UK. We have been their facilitators for all their activities in India since many years!
+                    </P>
+                </div>    
                 <div class="each-event">
                     <div class="event-description" id="odd1">
                         <div class="description-title">
@@ -340,7 +164,237 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div>    
+
+    <section class="team" id="team">
+        <div class="title"><h1><span id="title-blue">Build Your Dedicated</span> Team in India</h1></div>
+        <div class="team-content">
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-Solutions-Team-Building-1.png" alt="Soch Solutions Team Building 1">
+                </div>
+                <div class="team-text">
+                    <h4>Flexibility to recruit & pay the salaries yourself</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-2.png" alt="Soch Solutions Team Building 2">
+                </div>
+                <div class="team-text">
+                    <h4>Access to Wide Range of IT Experts</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-3.png" alt="Soch Solutions Team Building 3">
+                </div>
+                <div class="team-text">
+                    <h4>You get complete control over the resources</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-4.png" alt="Soch Solutions Team Building 4">
+                </div>
+                <div class="team-text">
+                    <h4>Transparent Engagement Model</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-5.png" alt="Soch Solutions Team Building 5">
+                </div>
+                <div class="team-text">
+                    <h4>Safe on Infrastructure</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-6.png" alt="Soch Solutions Team Building 6">
+                </div>
+                <div class="team-text">
+                    <h4>Utitlize resources for multiple projects</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-7.png" alt="Soch Solutions Team Building 7">
+                </div>
+                <div class="team-text">
+                    <h4>100% Confidentiality</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-8.png" alt="Soch Solutions Team Building 8">
+                </div>
+                <div class="team-text">
+                    <h4>Monthly Payment</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-9.png" alt="Soch Solutions Team Building 9">
+                </div>
+                <div class="team-text">
+                    <h4>Save on cost for Long Term Projects</h4>
+                </div>
+            </div>
+            <div class="col20">
+                <div class="imgBox">
+                    <img src="images/Soch-solutions-Team-Building-10.png" alt="Soch Solutions Team Building 10">
+                </div>
+                <div class="team-text">
+                    <h4>Extend your team with 1 employee & grow</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="products" id="products">
+        <div class="title"><h1><span id="title-blue">Our</span> Products</h1></div>
+        <div class="sub-title"><p>Our Online Platform Offers DIGITAL CAMPAIGNS & ENGAGEMENT SOLUTIONS Such As</p></div>
+        <div class="content">
+            <div class="box tooltip-ex" id="tooltip">
+                <div class="imgBx">
+                    <a aria-label="Engagemints Employee Engagement" href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener">
+                        <img src="images/Soch-Solutions-Employee Management and Team Building Solutions.jpg" 
+                        alt="Soch Solutions Employee Management and Team Building Solutions">
+                    </a>
+                    <span class="tooltip-ex-text" id="tooltip-text">
+                        <span><a href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener">Click below to know more about Engagemints Employee Management</a></span>
+                    </span>
+                </div>
+                <div class="text">
+                    <a href="http://www.engagemints.com/EmployeeEngagement.html" target="_blank" rel="noopener"><b><h4 id="engage">Employee Management and Team Building Solutions</h4></b></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/Soch-Solutions-Branding-Campaigns.jpg"
+                     alt="Soch Solutions Branding Campaigns">
+                </div>
+                <div class="text">
+                    <h4>Branding Campaigns</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/Soch-Solutions-Customer-Dealer-Loyalty-Campaigns.jpg"
+                     alt="Soch Solutions Customer/Dealer Loyalty Campaigns">
+                </div>
+                <div class="text">
+                    <h4>Customer/Dealer Loyalty Campaigns</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/Soch-Solutions-End-User-Engagement-Programs.jpg"
+                     alt="Soch Solutions End User Engagement Programs">
+                </div>
+                <div class="text">
+                    <h4>End User Engagement Programs</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/Soch-Solutions-Customer-Dealer-Loyalty-Campaigns.jpg"
+                     alt="Soch Solutions Customer Experience Enhancement Solutions">
+                </div>
+                <div class="text">
+                    <h4>Customer Experience Enhancement Solutions</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/Soch-Solutions-Sales-Engagement-Program.jpg"
+                     alt="Soch Solutions Sales Engagement Program">
+                </div>
+                <div class="text">
+                    <h4>Sales Engagement Program</h4>
+                </div>
+            </div>
+    </section> -->
+
+    <section class="website" id="website">
+        <div class="row">
+            <div class="col30">
+                <div class="title"><h1><span id="title-blue">Crafting</span> Websites</h1></div><br>
+            </div>
+            <div class="col70">
+                <div class="textBx">
+                    <div class="overlay">
+                        <p>
+                            We start with competitor’s analysis, market research that serves as input to design apt Website.
+                            Develop and host. We consider 26 design parameters that include Mobile compatibility, 
+                            Search engine Readiness, Usability concerns, speed, etc. Monthly Web analysis report contains 26 corners!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marketing" id="marketing">
+        <div class="title"><h1><span id="title-blue">Digital </span>Marketing</h1></div>
+        <div class="row">
+            <div class="col50" id="col1">
+                <div class="title"><h2>Where should you apply Digital Media?</h2></div>
+                <ul>
+                    <li>Branding</li>
+                    <li>Sales</li>
+                    <li>Marketing</li>
+                    <li>Operations</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class="col50" id="col2">
+                <div class="title"><h2>What are Digital Media Services?</h2></div>
+                <ul>
+                    <li>DMS – Digital Media Strategy</li>
+                    <li>SEO – Search Engine Optimization</li>
+                    <li>SMO – Social Media Optimization</li>
+                    <li>Website Design and Management</li>
+                    <li>Internet Campaigns for Marketing / Research</li>
+                    <li>Online Shop, Payment Gateway, Delivery Logistics</li>
+                    <li>PPC, Bulk Emailing, Paid Ads and more…</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-creation" id="video-creation">
+        <div class="row">
+            <div class="col50" id="video-col1">
+                <div class="title"><h2>Video Creation Service</h2></div>
+                <ul>
+                    <li>Are you looking to improve your Customer Engagement?</li>
+                    <li>Wish to drive higher traffic and exponentially improve conversions?</li>
+                    <li>Improve Search Engine Optimization?</li>
+                    <li>Your website needs an Introductory Video!!!</li>
+                </ul>
+            </div>
+            <div class="col50">
+                <img src="images/s2.jpg" alt="Video Creation Service">
+            </div>
+        </div>
+    </section>
+
+    <section class="lead" id="lead">
+        <div class="row" id="lead-row">
+            <div class="col50">
+                <img src="images/s3.jpg" alt="Lead Generation">
+            </div>
+            <div class="col50" id="lead-col1">
+                <div class="title"><h2>Lead Generation</h2></div>
+                <ul>
+                    <li>Increase sales for your business.</li>
+                    <li>Customised campaigns for your goals.</li>
+                    <li>Range of Services from Market Research, data mining to meetings/ appointments.</li>
+                </ul>
+            </div>
+        </div>
+    </section>    
 
     <section class="contact" id="contact">
         <div class="title"><h1><span id="title-blue">Contact</span> Us</h1></div>
@@ -434,6 +488,3 @@
     </script>
 </body>
 </html>
-<?php
-    include("zen.html");
-?>
