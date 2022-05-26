@@ -252,7 +252,7 @@
     <div class="wrapper" id="soch">
         <section class="block">
             <div class="each-year">
-                <div class="title"><h1><span id="title-blue">WHY</span> SOCH?</h1></div>
+				<div class="title"><h1><span id="title-blue">WHY</span> SOCH?</h1></div>
                 <div class="each-event">
                     <div class="event-description" id="odd1">
                         <div class="description-title">

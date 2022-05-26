@@ -20,22 +20,29 @@ section, #soch, .team {
     width: 40%;
 }
 .logo img {
-    width: 40%;
+    width: 70%;
 }
 /* END OF LOGO CSS */
+/* ABOUT US CSS */
+.about-us p {
+    color: #111;
+    margin-top: 5%;
+}
 /* HEADER CSS */
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 20px;
+    padding: 3px 20px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: right;
     transition: 0.5s;
-    background-color: #000;
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.788);
+    opacity: 1;
     /* opacity: 0.9; */
 }
 header .navigation {
@@ -54,14 +61,14 @@ header .navigation li {
 header .navigation li a {
     font-weight: 500;
     text-decoration: none;
-    margin: 0 0.7vw;
-    color: #fff;
+    margin: 0 20px;
+    color: #111;
     font-size: 15px;
 }
 .navigation li a:hover {
     color: #0691ec;
   }
-header .navigation li a::before {
+header .navigation li a::before, header .navigation .dropdown .dropdown-content a::before {
     content: "";
     display: block;
     height: 3px;
@@ -170,6 +177,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 
 /* IMAGE SLIDER CCS */
 .slider {
+    margin-top: 7%;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -187,6 +195,14 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     width: 20%;
     height: 100%;
     float: left;
+}
+.slider .container .slide h1 {
+    bottom: 20%;
+    color: white;
+    font-size: 40px;
+    margin: 30% 0 25% 0;
+    padding: 5%;
+    text-align: center;
 }
 .slider .container .slide.slide1 {
     background: url("../images/Soch-Solutions-Image-Slider-1.jpg");
@@ -214,7 +230,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
         left: 0;
     }
     20% {
-        left: 0;
+        left: -0%;
     }
     25% {
         left: -100%;
@@ -235,8 +251,14 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
         left: -300%;
     }
     100% {
-        left: -400%;
+        left: -300%;
     }
+    /* 95% {
+        left: -300%;
+    }
+    100% {
+        left: -300%;
+    } */
 }
 /* END OF IMAGE SLIDER CCS */
 /* CSS FOR SECTION TITLE AND SUB-TITLE SECTION*/
@@ -309,10 +331,10 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 /* END OF CSS FOR PRODUCTS SECTION */
 
 /* CSS FOR CRAFTING VIDEOS SECTION */
-.team, #website {
+#website, #video-creation, #contact {
     background: #f6f6f6;
 }
-.website .row, .marketing .row, .contact .row {
+.website .row, .marketing .row, .contact .row, .video-creation .row, .lead .row {
     position: relative;
     width: 100%;
     display: flex;
@@ -360,7 +382,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 /* END CSS FOR CRAFTING VIDEOS SECTION */
 
 /* CSS FOR DIGITAL MARKETING SECTION */
-.marketing .row .col50 {
+.marketing .row .col50, .video-creation .row .col50 {
     width: 50%;
     align-items: center;
     justify-content: center;
@@ -394,6 +416,56 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     font-size: 1.3em; 
 }
 /* END OF CSS FOR DIGITAL MARKETING SECTION */
+
+/* CSS FOR VIDEO CREATION */
+#video-creation {
+    padding: 12% 5% 5% 5%;
+}
+.video-creation .row .col50 .title {
+    justify-content: left;
+}
+#video-col1 {
+    padding: 1% 0;
+}
+#video-creation .row .col50 img {
+    width: 100%;
+}
+#video-col1 .title h2 {
+    font-size: 1.9em;
+    padding: 3% 2% 6% 2%;
+}
+#video-col1 ul {
+    padding-left: 5%;
+}
+#video-col1 ul li {
+    font-size: 1.3em; 
+}
+/* END OF CSS FOR VIDEO CREATION */
+
+/* CSS FOR LEAD GENERATION */
+#lead {
+    padding: 12% 5% 5% 5%;
+}
+.lead .row .col50 .title {
+    justify-content: left;
+}
+#lead-col1 {
+    padding: 1% 0;
+}
+#lead .row .col50 img {
+    width: 100%;
+}
+#lead-col1 .title h2 {
+    font-size: 1.9em;
+    padding: 3% 2% 6% 2%;
+}
+#lead-col1 ul {
+    padding-left: 5%;
+}
+#lead-col1 ul li {
+    font-size: 1.3em; 
+}
+/* END OF CSS FOR LEAD GENERATION */
 
 .row .col50 {
     width: 50%;
@@ -569,7 +641,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     width: 100%;
     height: 100%;
     object-fit: scale-down;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 1px 1px 10px #7676762e, -1px -1px 5px #7676762e;
 }
 .team .team-content .col20 .team-text h4 {
@@ -579,6 +651,41 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     text-align: center;
     margin-top: 8%;  
 }
+
+/* Soch Solutions in a Nutshell */
+.nutshell {
+    padding: 5% 0;
+}
+.nutshell img {
+    width: 100%;
+}
+/* End of Soch Solutions in a Nutshell */
+
+/* Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-top: 3px;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0 !important;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* End of Dropdown Menu */
 
 @media(max-width: 1290px) {
     header .navigation li a, header.sticky .navigation li a {
@@ -692,7 +799,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
         background-repeat: no-repeat;
         background-position: center;
     }
-    header.sticky .menuToggle {
+    header .menuToggle, header.sticky .menuToggle {
         filter: invert(1);
     }
     .title h1 {
@@ -722,8 +829,11 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     .row .col70 .textBx {
         margin: 0;
     }
-    .website .row .col50, .marketing .row .col50, .contact .row .col50 {
+    .website .row .col50, .marketing .row .col50, .contact .row .col50, .video-creation .row .col50, .lead .row .col50 {
         width: 100%;
+    }
+    #lead-row {
+        flex-direction: column-reverse;
     }
     #col1, #col2 {
         padding-bottom: 9%;

@@ -22,11 +22,11 @@
 .block:before {
     content: "";
     position: absolute;
-    height: calc(100% - 175px);
+    height: calc(100% - 360px);
     width: 1px;
     background-color: #111;
     left: 50%;
-    margin-top: 90px;
+    margin-top: 250px
 }
 .each-event {
     background-color: #0691ec;
