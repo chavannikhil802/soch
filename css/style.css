@@ -120,7 +120,8 @@ body.dark, body.dark #website, body.dark .wrapper,
 body.dark .toggle, body.dark .contactForm .inputBox input, 
 body.dark .contactForm .inputBox textarea,
 body.dark .video-creation,
-body.dark .contact {
+body.dark .contact,
+body.dark header .navigation .dropdown .dropdown-content {
     background: #111827 !important;
 }
 body.dark .contactForm .inputBox input,
