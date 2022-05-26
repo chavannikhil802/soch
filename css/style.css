@@ -118,13 +118,17 @@ body.dark {
 }
 body.dark, body.dark #website, body.dark .wrapper,
 body.dark .toggle, body.dark .contactForm .inputBox input, 
-body.dark .contactForm .inputBox textarea {
-    background: #111827;
+body.dark .contactForm .inputBox textarea,
+body.dark .video-creation,
+body.dark .contact {
+    background: #111827 !important;
 }
 body.dark .contactForm .inputBox input,
 body.dark .contactForm .inputBox textarea,
 body.dark .contactForm .inputBox input::placeholder, 
-body.dark .contactForm .inputBox textarea::placeholder {
+body.dark .contactForm .inputBox textarea::placeholder,
+body.dark .video-creation ul li,
+body.dark .lead ul li {
     color: #fff;
 }
 body.dark .contactForm .inputBox input[type=submit] {
@@ -170,9 +174,9 @@ body.dark .team {
 /* body.dark #soch #services, body.dark #soch #brand, body.dark #soch #support {
     filter: invert(1);
 } */
-body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p {
+/* body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p {
     color: #111;
-}
+} */
 /* END OF CSS FOR DARK MODE */
 
 /* IMAGE SLIDER CCS */
@@ -375,7 +379,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 }
 
 .website h1 {
-    font-size: 5.1em;
+    font-size: 3.1em;
     flex-wrap: wrap;
     margin: 3%;
 }
@@ -404,6 +408,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 #col2 {
     background-color: #ed7811;
     padding: 4%;
+    color: #fff;
 }
 #col1 .title h2, #col2 .title h2 {
     font-size: 1.9em;
@@ -455,8 +460,8 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 #lead .row .col50 img {
     width: 100%;
 }
-#lead-col1 .title h2 {
-    font-size: 1.9em;
+#lead-col1 .title h1, #lead-col1 .title ul {
+    /* font-size: 1.9em; */
     padding: 3% 2% 6% 2%;
 }
 #lead-col1 ul {
@@ -645,6 +650,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
     box-shadow: 1px 1px 10px #7676762e, -1px -1px 5px #7676762e;
 }
 .team .team-content .col20 .team-text h4 {
+    font-weight: 400;
     text-decoration: none;
 }
 .imgBox, .team-text {
@@ -728,7 +734,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 }
 @media(max-width: 991px) {
     .logo {
-        width: 30%;
+        width: 50%;
     }
     header .navigation li a::before {
         top: 32px;
@@ -853,7 +859,7 @@ body.dark .each-event:nth-child(odd) h3, body.dark .each-event:nth-child(odd) p 
 }
 @media(max-width: 480px) {
     .logo {
-        width: 40%;
+        width: 100%;
     }
     .sub-title p, .row .col70 .textBx p, #col1 ul li, #col2 ol li, .address p {
         font-size: 1em;
