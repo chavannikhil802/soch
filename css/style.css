@@ -784,7 +784,7 @@ body.dark .team {
     header .navigation li a, header.sticky .navigation li a {
         color: #111;
         font-size: 1.2em;
-        line-height: 2em;
+        line-height: 2.7em;
     }
     header.sticky .navigation li a:hover  {
         color: #0691ec;
@@ -861,9 +861,6 @@ body.dark .team {
     }
 }
 @media(max-width: 480px) {
-    header .navigation li a, header.sticky .navigation li a {
-        line-height: 3.5em;
-    }    
     .logo {
         width: 100%;
     }
