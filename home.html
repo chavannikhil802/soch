@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Soch Solutions - Helps you fulfill your Digital Dreams, SEO for Website, SMO for Website</title>
 </head>
 <body id="body" class="mode" onload="checkMode()">
@@ -412,13 +413,16 @@
                             <input type="text" id="subject" placeholder="E-Mail Subject" required>
                         </div>
                         <div class="inputBox">
-                            <input type="text" id="contact-no" placeholder="Contact Number" required>
+                            <input type="number" id="contact-no" placeholder="Contact Number" required>
                         </div>
                         <div class="inputBox">
                             <textarea  id="message" placeholder="Enter You Message here" required></textarea>
                         </div>
                         <div class="inputBox">
-                            <input type="submit" value="Send">
+                            <input type="submit" value="Send" onclick="sendMail()">
+                        </div>
+                        <div class="inputBox">
+                            <h4 id="mail-msg"></h4>
                         </div>
                     </div>
                 </div>
@@ -471,6 +475,29 @@
         function toggleSubMenu() {
             const SubMenuToggle = document.querySelector('.dropdown');
             SubMenuToggle.classList.toggle('active');          
+        }
+
+        function sendMail() {
+            var getName = $('#name').getVal();
+            var getEmail = $('#email').getVal();
+            var getSubject = $('#subject').getVal();
+            var getContact = $('#contact-no').getVal();
+            var getMsg = $('#message').getVal();
+
+            if(getName != '' && getEmail != '' && getSubject != '' && getContact != '' && getMsg != '') {
+                $('#mail-msg').html('Sending Mail....');
+                $.ajax({
+                    url: 'mail.php',
+                    data: {name:getName, email:getEmail, subject:getSubject, contact:getContact, msg:getMsg},
+                    method: 'POST',
+                    success: function(data) {
+                        $('#mail-msg').html(data);
+                    }
+                });
+            }
+            else {
+                $('#mail-msg').html('Please enter all the required fields');
+            }
         }
     </script>
     <script
