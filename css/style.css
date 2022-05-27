@@ -573,7 +573,7 @@ body.dark .team {
     line-height: 40px;
     width: 40px;
     margin-bottom: 1px;
-    z-index: 2;
+    /* z-index: 2; */
 }
 #fixed-social a:hover>span{
     visibility: visible;
@@ -708,9 +708,8 @@ body.dark .team {
         width: 30px;
         height: 30px;
         line-height: 28px;
-
         margin-bottom: 1px;
-        z-index: 2;
+        /* z-index: 2; */
     }
 }
 @media(max-width: 1190px) {
