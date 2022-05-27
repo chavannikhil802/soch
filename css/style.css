@@ -873,6 +873,15 @@ body.dark .team {
     }
 }
 @media(max-width: 480px) {
+    .slider {
+        height: 34vh;
+    }
+    .slider .container .slide.slide1 {
+        background-size: contain;
+    }
+    .slider .container .slide h1 {
+        font-size: 30px;
+    }
     .logo {
         width: 100%;
     }
