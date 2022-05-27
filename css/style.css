@@ -761,7 +761,7 @@ body.dark .team {
     }
     header .navigation.active {
         width: 100%;
-        height: calc(100% - 60px);
+        height: calc(100% - 160px);
         position: fixed;
         top: 60px;
         left: 0;
@@ -862,7 +862,7 @@ body.dark .team {
 }
 @media(max-width: 480px) {
     header .navigation li a, header.sticky .navigation li a {
-        line-height: 2.5em;
+        line-height: 3.5em;
     }    
     .logo {
         width: 100%;
