@@ -861,6 +861,9 @@ body.dark .team {
     }
 }
 @media(max-width: 480px) {
+    header .navigation li a, header.sticky .navigation li a {
+        line-height: 2.5em;
+    }    
     .logo {
         width: 100%;
     }
@@ -873,8 +876,8 @@ body.dark .team {
     .title h1, #website h1 {
         font-size: 2em;
     }
-    }
-    @media (max-width: 1250px) {
+}
+@media (max-width: 1250px) {
     .website h1 {
         font-size: 4.1em;
     }
