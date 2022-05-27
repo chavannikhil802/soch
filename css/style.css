@@ -739,9 +739,9 @@ body.dark .team {
     header .navigation li a::before, header .navigation .dropdown .dropdown-content a::before {
         top: 40px !important;
     }
-    .dropdown-content {
+    /* .dropdown-content {
         left: -20px;
-    }
+    } */
     .dropdown-content a {
         font-size: 1em !important;
         padding: 2px 10px;
