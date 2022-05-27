@@ -437,6 +437,7 @@ body.dark .team {
     padding: 1% 0;
 }
 #video-creation .row .col50 img {
+    margin-top: 5%;
     width: 100%;
 }
 #video-col1 .title h2 {
@@ -444,7 +445,7 @@ body.dark .team {
     padding: 3% 2% 6% 2%;
 }
 #video-col1 ul {
-    padding-left: 5%;
+    padding: 3% 0 0 5%;
 }
 #video-col1 ul li {
     font-size: 1.3em; 
@@ -462,6 +463,7 @@ body.dark .team {
     padding: 1% 0;
 }
 #lead .row .col50 img {
+    margin-top: 5%;
     width: 100%;
 }
 #lead-col1 .title h1, #lead-col1 .title ul {
@@ -857,7 +859,7 @@ body.dark .team {
     #col1, #col2 {
         padding-bottom: 9%;
     }
-    #col1 ul, #col2 ol {
+    #col1 ul, #col2 ul {
         padding-left: 18%;
     }
     #col1 .title h2, #col2 .title h2 {
@@ -874,7 +876,7 @@ body.dark .team {
     .logo {
         width: 100%;
     }
-    .sub-title p, .row .col70 .textBx p, #col1 ul li, #col2 ol li, .address p {
+    .sub-title p, .row .col70 .textBx p, #col1 ul li, #col2 ul li, .address p {
         font-size: 1em;
     }
     #col1 ul, #col2 ul {
@@ -882,6 +884,12 @@ body.dark .team {
     }
     .title h1, #website h1 {
         font-size: 2em;
+    }
+    #video-col1 ul li {
+        font-size: 1em;
+    }
+    #lead-col1 ul li {
+        font-size: 1em;
     }
 }
 @media (max-width: 1250px) {
