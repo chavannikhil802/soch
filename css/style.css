@@ -736,6 +736,9 @@ body.dark .team {
     }
 }
 @media(max-width: 991px) {
+    .dropdown-content a {
+        padding: 6px 10px;
+    }
     .logo {
         width: 50%;
     }
