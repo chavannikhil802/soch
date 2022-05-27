@@ -478,11 +478,11 @@
         }
 
         function sendMail() {
-            var getName = $('#name').getVal();
-            var getEmail = $('#email').getVal();
-            var getSubject = $('#subject').getVal();
-            var getContact = $('#contact-no').getVal();
-            var getMsg = $('#message').getVal();
+            var getName = $('#name').val();
+            var getEmail = $('#email').val();
+            var getSubject = $('#subject').val();
+            var getContact = $('#contact-no').val();
+            var getMsg = $('#message').val();
 
             if(getName != '' && getEmail != '' && getSubject != '' && getContact != '' && getMsg != '') {
                 $('#mail-msg').html('Sending Mail....');
