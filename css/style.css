@@ -761,7 +761,7 @@ body.dark .team {
     }
     header .navigation.active {
         width: 100%;
-        height: calc(100% - 160px);
+        height: calc(100% - 60px);
         position: fixed;
         top: 60px;
         left: 0;
