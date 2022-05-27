@@ -736,6 +736,9 @@ body.dark .team {
     }
 }
 @media(max-width: 991px) {
+    header .navigation li a::before, header .navigation .dropdown .dropdown-content a::before {
+        top: 40px !important;
+    }
     .dropdown-content a {
         padding: 2px 10px;
     }
