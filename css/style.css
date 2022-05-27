@@ -94,7 +94,10 @@ header.sticky .navigation li a  {
     color: #111;
     font-size: 15px;
 }
-
+#menu-products {
+    cursor: pointer;
+    /* pointer-events: none; */
+}
 header.sticky .navigation li a:hover  {
     color: #0691ec;
 }
@@ -687,11 +690,11 @@ body.dark .team {
     margin: 0 !important;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+/* .dropdown.active .dropdown-content a {background-color: #ddd;} */
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown.active .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown.active .dropbtn {background-color: #3e8e41;}
 /* End of Dropdown Menu */
 
 @media(max-width: 1290px) {

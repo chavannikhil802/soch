@@ -36,7 +36,7 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu();">Home</a></li>
             <li><a href="#soch" onclick="toggleMenu();">About Us (Why SOCH?)</a></li>
-            <li class="dropdown"><a href="" onclick="toggleMenu();">Products & Services &#9660;</a>
+            <li class="dropdown"><a id="menu-products" onclick="toggleSubMenu();">Products & Services &#9660;</a>
                 <div class="dropdown-content" id="dropdown-content">
                     <a href="#team" onclick="toggleMenu();">Build Your Team in India</a>
                     <a href="#website" onclick="toggleMenu();">Crafting Websites</a>
@@ -466,6 +466,11 @@
             const navigation = document.querySelector('.navigation');
             menuToggle.classList.toggle('active');
             navigation.classList.toggle('active');
+        }
+
+        function toggleSubMenu() {
+            const SubMenuToggle = document.querySelector('.dropdown');
+            SubMenuToggle.classList.toggle('active');          
         }
     </script>
     <script
