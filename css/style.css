@@ -692,7 +692,7 @@ body.dark .team {
 
 /* .dropdown.active .dropdown-content a {background-color: #ddd;} */
 
-.dropdown.active .dropdown-content {display: block;}
+.dropdown.active .dropdown-content {display: block; text-align: center;}
 
 .dropdown.active .dropbtn {background-color: #3e8e41;}
 /* End of Dropdown Menu */
@@ -739,7 +739,11 @@ body.dark .team {
     header .navigation li a::before, header .navigation .dropdown .dropdown-content a::before {
         top: 40px !important;
     }
+    .dropdown-content {
+        left: -20px;
+    }
     .dropdown-content a {
+        font-size: 1em !important;
         padding: 2px 10px;
     }
     .logo {
